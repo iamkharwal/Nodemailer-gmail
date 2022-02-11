@@ -11,5 +11,5 @@ app.listen(port, async () => {
   } catch (error) {
     console.log("error: ", error.message);
   }
-  console.log("Listening to port 8000");
+  console.log(`Listening to port ${port}`);
 });

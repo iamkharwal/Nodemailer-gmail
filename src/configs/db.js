@@ -3,5 +3,7 @@
 const mongoose = require("mongoose");
 
 module.exports = () => {
-  return mongoose.connect("mongodb://127.0.0.1:27017/pagination");
+  return mongoose.connect(
+    "mongodb+srv://atul:1234@cluster0.p4e2j.mongodb.net/portfolio"
+  );
 };
