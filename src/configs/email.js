@@ -11,8 +11,3 @@ module.exports = nodemailer.createTransport({
     pass: "8219947916@Atul",
   },
 });
-
-// port: 587 or 465 (587 for tls, 465 for ssl)
-// protocol: tls or ssl
-// user: YOUR_USERNAME@gmail.com
-// password: YOUR_PASSWORD
