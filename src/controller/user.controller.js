@@ -39,8 +39,8 @@ router.post("", async (req, res) => {
     
     const user = await User.create(req.body);
     var message = {
-      from: "9329hitman@gmail.com",
-      to: "akkharwal009@gmail.com",
+      from: "xxx@gmail.com",
+      to: "xxx@gmail.com",
       subject:
         "You have received an email from portfolio from: " +" "+ user.full_name,
       text: "Plaintext version of the message",
